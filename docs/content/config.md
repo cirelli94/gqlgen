@@ -1,4 +1,4 @@
----
+/---
 linkTitle: Configuration
 title: How to configure gqlgen using gqlgen.yml
 description: How to configure gqlgen using gqlgen.yml
@@ -80,9 +80,6 @@ resolver:
 
 # Optional: wrap nullable input fields with Omittable
 # nullable_input_omittable: true
-
-# Optional: turn on to return pointers instead of values in unmarshalInput
-# return_pointers_in_unmarshalinput: false
 
 # Optional: set to speed up generation time by not performing a final validation pass.
 # skip_validation: true
